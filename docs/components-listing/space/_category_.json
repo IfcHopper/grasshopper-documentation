@@ -1,9 +1,0 @@
-{
-  "label": "Space",
-  "position": 2,
-  "collapsed": true,
-  "link": {
-    "type": "generated-index",
-    "description": "The list of all the coponents with inputs and outputs."
-  }
-}

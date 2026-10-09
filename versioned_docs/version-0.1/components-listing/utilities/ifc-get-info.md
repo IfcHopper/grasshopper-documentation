@@ -7,7 +7,7 @@ sidebar_label: Ifc Info
 Get the attributes of an IFC entity from its step id.
 
 <p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/ifc_get_info.PNG" />
+  <img src="https://ifchopper.github.io/grasshopper-documentation/img/ifc_get_info.PNG" />
 </p>
 
 ## Input

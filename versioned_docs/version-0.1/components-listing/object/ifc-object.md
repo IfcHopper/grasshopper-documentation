@@ -7,7 +7,7 @@ sidebar_label: Ifc Object
 Create an IFC Object.
 
 <p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/ifc_object.PNG" />
+  <img src="https://ifchopper.github.io/grasshopper-documentation/img/ifc_object.PNG" />
 </p>
 
 ## Input

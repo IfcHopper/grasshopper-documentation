@@ -5,40 +5,36 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-## Unlocking BIM Inside Rhino/Grasshopper with Open Standards
+## openBIM inside Rhino and Grasshopper
 
-**IfcHopperShell** is an open-source toolkit designed to empower Rhino/Grasshopper users, by enabling the direct use of IfcOpenShell within Grasshopper.
+**IfcHopper** (formerly IfcHopperShell) is an open-source Grasshopper plugin for Rhino 8 that creates, reads, updates and deletes (CRUD) data directly in native IFC files. There is no conversion to another format: what you build in Grasshopper is written as IFC, and what you read from an IFC file can be edited and written back, keeping everything else in the file as it was.
 
-With **IfcHopperShell**, Rhino/Grasshopper transforms into a fully-fledged authoring software for BIM workflows, bridging the worlds of parametric design and open BIM.
-
-## Key Features
-- Open-source and Free: always open, always accessible to everyone.
-- Python-powered Nodes: simple yet powerful components written in Python, ready for customization and extension.
-- IFC-native Geometry: build, modify, and analyze IFC geometry directly inside Grasshopper.
-- Bidirectional Workflow: achieve seamless data exchange between BIM and parametric design — all within open standards.
-- Built on IfcOpenShell: leverage the robust capabilities of IfcOpenShell, now inside your favourite generative design environment.
-- Extensible by the Community: collaborative and community-driven—everyone is welcome to contribute new tools and features for smarter, faster IFC modeling.
-
-## Why IfcHopperShell?
-Building open and interoperable BIM workflows should be accessible to all designers, engineers, and developers. With **IfcHopperShell**, you can:
-Model IFC entities directly in Grasshopper
-Author and refine BIM information without switching software
-Accelerate design iteration in a truly connected BIM ↔ parametric workflow
-Rely on open-source tools and standards for transparency and long-term viability
-Participate in shaping the future of BIM authoring in Rhino/Grasshopper
-
-## Get Involved!
-**IfcHopperShell** is a community project—help us grow and improve!
-
-- Contribute nodes and components
-- Report issues and suggest features
-- Share your applications and workflows
-
-Whether architect, engineer, developer, or student, you have the power to make IFC modeling in Rhino/Grasshopper smarter, faster, and more open.
-Let's unlock the full potential of BIM together in Rhino/Grasshopper.
-
-:::tip[THANKS TO IFCOPENSHELL]
-Powered by IfcOpenShell • Built for everyone • Forever Open Source
+:::info[1.0 beta]
+This is the documentation of the **1.0 beta**. Try it on your models and [tell us](#get-involved) what works and what does not. Component inputs and outputs may still change until 1.0.
 :::
 
-For installation instructions, examples, and contribution guidelines, please check the next sections of this documentation.
+## What you can do
+
+- **Read** IFC2X3, IFC4 and IFC4X3 files and explore them: spatial tree, elements, geometry, types, materials, property and quantity sets, classifications, openings. Only what you look at is loaded, so large files open quickly.
+- **Create** IFC models: projects, sites, buildings and the IFC 4.3 infrastructure facilities (bridges, roads, railways, marine facilities), storeys, facility parts, spaces and any IFC element class, with geometry, types (linked to Rhino blocks), materials, property sets and classifications.
+- **Update** existing files in place: names, types, placements, geometry, colours, properties, materials, classifications. Objects are matched by GlobalId, and what IfcHopper does not touch stays in the file unchanged.
+- **Delete** objects with everything under them.
+- **Write** IFC4X3_ADD2, IFC4 or IFC2X3, with a warning for everything an older schema cannot hold.
+- **Find** objects by class, name, GlobalId or property values, and summarise a model.
+
+## How it is built
+
+IfcHopper is a C# plugin with its own IFC model (IfcHopper Core), [xBIM Essentials](https://github.com/xBimTeam/XbimEssentials) to read and write IFC files, and RhinoCommon for geometry. It needs no Python and no other installation besides the plugin.
+
+## Coming from IfcHopperShell 0.1
+
+IfcHopper 1.0 is the next version of IfcHopperShell, under its new name. It is a **breaking change**: definitions made with 0.1 are not compatible with 1.0 and have to be rebuilt with the 1.0 components. It no longer needs Python or IfcOpenShell. The 0.1 documentation is still available: choose **v0.1** in the version menu.
+
+## Get involved
+
+IfcHopper is open source (LGPL-3.0), developed by Mattia Bressanelli and Luca Florio.
+
+- Report bugs and ask questions in the [issues](https://github.com/IfcHopper/grasshopper-code/issues) of the code repository.
+- Read the code, the roadmap and how to contribute in the [code repository](https://github.com/IfcHopper/grasshopper-code).
+
+Start with the [installation](getting-started/installation), then build your [first model](getting-started/create-new-model).

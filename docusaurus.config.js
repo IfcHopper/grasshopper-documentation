@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IfcHopperShell',
-  tagline: 'Open BIM is cool',
+  title: 'IfcHopper',
+  tagline: 'openBIM in Rhino and Grasshopper: CRUD on native IFC files',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://IfcHopperShell.github.io',
+  url: 'https://ifchopper.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/grasshopper-documentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'IfcHopperShell', // Usually your GitHub org/user name.
+  organizationName: 'IfcHopper', // Usually your GitHub org/user name.
   projectName: 'grasshopper-documentation', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   
@@ -52,10 +52,15 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          includeCurrentVersion: false,
+          // docs/ is the latest IfcHopper version, served at the root; older versions are frozen in versioned_docs/.
+          lastVersion: 'current',
           versions: {
+            current: {
+              label: 'v1.0-beta',
+              banner: 'none',
+            },
             '0.1': {
-              label: 'v0.1', // This changes the UI text to "v0.1"
+              label: 'v0.1 (IfcHopperShell)',
             },
           },
         },
@@ -100,9 +105,9 @@ const config = {
       //   respectPrefersColorScheme: true,
       // },
       navbar: {
-        title: 'IfcHopperShell',
+        title: 'IfcHopper',
         logo: {
-          alt: 'IfcHopperShell Logo',
+          alt: 'IfcHopper Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -117,7 +122,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/IfcHopperShell',
+            href: 'https://github.com/IfcHopper/grasshopper-code',
             label: 'GitHub',
             position: 'right',
           },
@@ -162,7 +167,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `© ${new Date().getFullYear()} IfcHopperShell Contributors`,
+        copyright: 'IfcHopper is open source, licensed under the LGPL-3.0.',
       },
       // prism: {
       //   theme: prismThemes.github,

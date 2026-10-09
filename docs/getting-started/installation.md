@@ -4,38 +4,23 @@ title: Installation
 sidebar_label: Installation
 ---
 
-This page will guide you through the installation of the IfcHoppeShell plugin for Rhino/Grasshopper.
+## Requirements
 
-## Prerequisites
-Before you install the actual plugin, you need to have:
-- the Windows operating system;
-- Rhino 8 or greater (grasshopper comes preinstalled with Rhino);
-- a valid python 3.9 Rhino environment: in Rhino run the `ScriptEditor` command. If it's the first time you use it, let the python environment to initialize. A `.rhinocode` folder will be created in your user folder (like `C:\Users\hopperuser\.rhinocode\`) and an instance of pyhon 3.9, specific to Rhino, will be installed.
+- Rhino 8.20 or later, on Windows or Mac (Grasshopper comes with Rhino).
 
-:::info
-Note that Rhino uses its own python installation, so it doesn't matter if you already have some python version installed in your system.
+IfcHopper needs nothing else: no Python and no IfcOpenShell.
+
+## Install
+
+1. Download the latest zip from the [releases](https://github.com/IfcHopper/grasshopper-code/releases) of the code repository. Beta versions are marked as pre-release.
+2. On Windows, unblock the zip before unzipping it: right-click it, choose **Properties** and tick **Unblock**. Otherwise Windows may stop Grasshopper from loading the plugin.
+3. Open Grasshopper and choose **File > Special Folders > Components Folder**. Unzip the zip into that folder (it holds `IfcHopper.gha` and the DLLs next to it; keep them together).
+4. Restart Rhino and open Grasshopper. The components are in the **IfcHopper** tab.
+
+## Update or uninstall
+
+To update, close Rhino and replace the folder with the one of the new version. To uninstall, delete it.
+
+:::warning[Breaking change]
+IfcHopper 1.0 is not compatible with IfcHopperShell 0.1. Definitions made with 0.1 do not work with 1.0 and have to be rebuilt with the 1.0 components.
 :::
-
-:::tip
-If you are under a company network, you may need to ask your IT department to let you computer reach `https://pypi.org/`. Also, if a proxy is present you may need to edit the `pip.ini` config file in the `.rhinocode` folder accordingly.
-:::
-
-## Install the ifcopenshell python library
-The IfcHopperShell plugin relies on the python library [ifcopenshell](https://docs.ifcopenshell.org/).
-
-To install it in the Rhino python environment:
-- open Rhino 8 (or greater);
-- Run the `ScriptEditor` command;
-- in the opened window top menu click on `Tools > Advanced > Open Python 3 Shell`;
-- in the opened shell, type `pip install ifcopenshell` and wait for it to complete the installation;
-- you can now close both the shell and the ScriptEditor.
-
-## Install the IfcHopperShell grasshopper plugin
-- open Rhino 8 (or greater);
-- Run the `PackageManager` command;
-- In the search bar type **IfcHopperShell**;
-- Click `Install` and wait.
-- Enjoy!
-
-## How to use
-Go to the next section of the docs for instructions on how to use the plugin.

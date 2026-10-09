@@ -1,61 +1,42 @@
 ---
-sidebar_position: 2
-title: Read existing model
-sidebar_label: Read existing model
+sidebar_position: 3
+title: Read an existing model
+sidebar_label: Read an existing model
 ---
 
-This guide assumes that you know about the IFC standard. If not, you can find informations in the offial documentation [here](https://ifc43-docs.standards.buildingsmart.org/).
+This guide reads an IFC file and explores it. It follows samples **02 Read and explore** and **15 Find and summarise**, which read the file written by sample 01; download them from the [samples](../samples) page.
 
-The sample model shown is avalable at [here](https://github.com/jakob-beetz/DataSetSchependomlaan/).
+## 1. Read the file
 
-## Read model
-Open existing model, creating a model instance and getting the version.
-Supported versions are IFC2x3, IFC4 and IFC4x3.
+- **Read IFC Header** takes a **Path** and gives the file header without reading the model: schema, author, organisation, the application that wrote it.
+- **Read IFC** takes the same **Path** and outputs the **Model**. IFC2X3, IFC4 and IFC4X3 files are supported.
 
-<p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/read_model_and_version.PNG" />
-</p>
+A relative path is taken from the folder of the saved definition.
 
-## Get geometry
-Get the geometry displayed in the Rhino scene, with proper coloring if avalable.
+Reading is lazy: only the project is read at first, and every object is read the first time a component asks for it. Large files open quickly, and you only wait for what you explore. When the file changes on disk, it is read again.
 
-:::info
-At the moment only meshes (i.e. explicit geometry) is supported, this means that even if an object is specified implicitly in the file (like extrusions and such), it will be automatically converted in a mesh to be displayed and processed.
+:::tip[Units]
+IfcHopper converts the file units to the Rhino document units. When they differ, Read IFC shows a remark; its context menu offers **Match Rhino units to file**.
 :::
 
-You can exclude certain element classes, in this case for better visualization `IfcOpeningElement` and `IfcSpace` elements were excluded.
-<p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/get_mesh_with_colors.PNG" />
-</p>
+## 2. Explore the spatial tree
 
-<p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/get_mesh_with_colors_2.PNG" />
-</p>
+Deconstruct the model step by step:
 
-You can also inlcude only certain element classes, in this case only `IfcWall` elements were included.
-<p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/get_mesh_with_colors_3.PNG" />
-</p>
+- **Deconstruct Model** → the **Project** (plus the header author, organisation and the source file).
+- **Deconstruct Project** → **Sites** and **Facilities**, contexts, units, georeference, property sets.
+- **Deconstruct Site**, **Deconstruct Facility**, **Deconstruct Storey**, **Deconstruct Facility Part**, **Deconstruct Space** → their children and **Elements**.
+- **Deconstruct Object** → class, type, geometry (meshes in world coordinates, with openings cut), colour, parts, openings, material, property sets, classifications, element type and placement.
 
-<p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/get_mesh_with_colors_4.PNG" />
-</p>
+Element parameters preview their geometry in the viewport and bake it: one mesh per element (or one block instance per element of a type), named after the element, with its IFC class and GlobalId as user text.
 
-## Get info by id, guid, or type
-Let's get the element at step id `#56`. In this case the `IfcProject`.
+## 3. Find and summarise
 
-<p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/get_info_by_step_id_guid_type_1.PNG" />
-</p>
+You don't have to walk the tree by hand:
 
-Let's get the element with guid `20FpTZCqJy2vhVJYtjuIce`. In this case the `IfcSite`.
+- **Model Info** gives the schema, the units, the number of objects per class and the spatial tree as text.
+- **Find Objects** searches the model, or below any object, by **Classes** (with their subclasses, e.g. `IfcBuiltElement` for all built elements), **Name** patterns with `*` and `?`, **GlobalIds**, and **Properties** filters such as `Pset_WallCommon.IsExternal = true` or `Qto_WallBaseQuantities.Length > 5`. It outputs the objects, their parents and their paths in the tree.
 
-<p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/get_info_by_step_id_guid_type_2.PNG" />
-</p>
+## Next steps
 
-Let' get the elements of type `IfcWall`. In this case we get a list of 934 step ids, that we could feed in the **Ifc Get Info** component to get the corresponding attributes (be careful about performance when you provide a long list of step ids).
-
-<p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/get_info_by_step_id_guid_type_3.PNG" />
-</p>
+Everything you read can be edited and written back to the same file: [Edit an existing model](edit-existing-model).

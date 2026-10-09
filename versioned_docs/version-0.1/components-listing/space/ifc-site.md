@@ -7,7 +7,7 @@ sidebar_label: Ifc Site
 Create an IFC Site.
 
 <p align="center">
-  <img src="https://ifchoppershell.github.io/grasshopper-documentation/img/ifc_site.PNG" />
+  <img src="https://ifchopper.github.io/grasshopper-documentation/img/ifc_site.PNG" />
 </p>
 
 ## Input

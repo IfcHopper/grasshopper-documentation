@@ -13,6 +13,17 @@ const config = {
   title: 'IfcHopper',
   tagline: 'openBIM in Rhino and Grasshopper: CRUD on native IFC files',
   favicon: 'img/favicon.ico',
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        sizes: 'any',
+        href: '/grasshopper-documentation/img/logo.svg',
+      },
+    },
+  ],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

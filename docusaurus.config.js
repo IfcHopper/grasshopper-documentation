@@ -110,7 +110,7 @@ const config = {
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
-        respectPrefersColorScheme: false,  // ignore OS preference
+        respectPrefersColorScheme: true,
       },
       // colorMode: {
       //   respectPrefersColorScheme: true,

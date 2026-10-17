@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'IfcHopper',
   tagline: 'openBIM in Rhino and Grasshopper: CRUD on native IFC files',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/ifchopper.ico',
   headTags: [
     {
       tagName: 'link',
@@ -20,7 +20,7 @@ const config = {
         rel: 'icon',
         type: 'image/svg+xml',
         sizes: 'any',
-        href: '/grasshopper-documentation/img/logo.svg',
+        href: '/grasshopper-documentation/img/ifchopper.svg',
       },
     },
   ],
@@ -109,7 +109,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true,   // removes the dark/light toggle
+        disableSwitch: false,
         respectPrefersColorScheme: false,  // ignore OS preference
       },
       // colorMode: {
@@ -119,7 +119,7 @@ const config = {
         title: 'IfcHopper',
         logo: {
           alt: 'IfcHopper Logo',
-          src: 'img/logo.svg',
+          src: 'img/ifchopper.svg',
         },
         items: [
           // {

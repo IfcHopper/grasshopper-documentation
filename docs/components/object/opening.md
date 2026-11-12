@@ -9,7 +9,7 @@ sidebar_label: Opening
 ![Opening](/img/components/opening.png) 
 **Opening** (Opening) · IfcHopper > Object
 
-Creates an opening or recess (IfcOpeningElement). Connect it to the Openings input of Object or Modify Object: it voids that object, whose geometry stays uncut in the file. Doors and windows filling it must also be in a storey or space.
+Creates an opening or recess (IfcOpeningElement). Connect it to the Openings input of Object or Modify Object: it voids that object, whose geometry stays uncut in the file. Doors and windows filling it must also be in a storey or space. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

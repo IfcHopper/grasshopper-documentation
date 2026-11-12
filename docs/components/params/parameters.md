@@ -23,5 +23,6 @@ Parameters of the Params panel. They hold IfcHopper objects, e.g. to collect the
 | ![Element Type](/img/components/param-element-type.png) | **Element Type** (ET) | IfcHopper element type, shared by its occurrences. |
 | ![Georeference](/img/components/param-georeference.png) | **Georeference** (Geo) | IfcHopper georeference. |
 | ![Material](/img/components/param-material.png) | **Material** (Mat) | IfcHopper material: a single material or a layer, constituent or profile set. |
+| ![Placement](/img/components/param-placement.png) | **Placement** (Pl) | IfcHopper placement: a world plane in document units. |
 | ![Property Set](/img/components/param-property-set.png) | **Property Set** (PSet) | IfcHopper property set (IfcPropertySet) or quantity set (IfcElementQuantity). |
 | ![Units](/img/components/param-units.png) | **Units** (U) | IfcHopper project units. |

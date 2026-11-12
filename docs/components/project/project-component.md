@@ -9,7 +9,7 @@ sidebar_label: Project
 ![Project](/img/components/project-component.png) 
 **Project** (Project) · IfcHopper > Project
 
-Creates an IFC project (IfcProject) from sites, or from facilities placed directly under the project.
+Creates an IFC project (IfcProject) from sites, or from facilities placed directly under the project. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

@@ -9,7 +9,7 @@ sidebar_label: Modify Space
 ![Modify Space](/img/components/modify-space.png) 
 **Modify Space** (ModSpace) · IfcHopper > Facility Part
 
-Edits an IFC space. Unconnected inputs keep their value; the GlobalId is kept.
+Edits an IFC space. Unconnected inputs keep their value; the GlobalId is kept. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

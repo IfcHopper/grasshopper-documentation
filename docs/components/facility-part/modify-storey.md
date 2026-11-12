@@ -9,7 +9,7 @@ sidebar_label: Modify Storey
 ![Modify Storey](/img/components/modify-storey.png) 
 **Modify Storey** (ModStorey) · IfcHopper > Facility Part
 
-Edits an IFC building storey. Unconnected inputs keep their value; the GlobalId is kept.
+Edits an IFC building storey. Unconnected inputs keep their value; the GlobalId is kept. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

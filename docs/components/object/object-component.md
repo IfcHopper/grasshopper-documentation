@@ -9,7 +9,7 @@ sidebar_label: Object
 ![Object](/img/components/object-component.png) 
 **Object** (Object) · IfcHopper > Object
 
-Creates an IFC element (any instantiable IfcElement subclass, e.g. IfcWall). Connect it to a storey or facility part.
+Creates an IFC element (any instantiable IfcElement subclass, e.g. IfcWall). Connect it to a storey or facility part. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

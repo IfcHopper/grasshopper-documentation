@@ -67,7 +67,7 @@ const config = {
           lastVersion: 'current',
           versions: {
             current: {
-              label: 'v1.0-beta',
+              label: 'v1.0.0-beta.2',
               banner: 'none',
             },
             '0.1': {

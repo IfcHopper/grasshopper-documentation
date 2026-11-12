@@ -9,7 +9,7 @@ sidebar_label: Bridge
 ![Bridge](/img/components/bridge.png) 
 **Bridge** (Bridge) · IfcHopper > Facility
 
-Creates an IFC bridge (IfcBridge).
+Creates an IFC bridge (IfcBridge). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

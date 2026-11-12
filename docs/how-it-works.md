@@ -4,7 +4,11 @@ title: How it works
 sidebar_label: How it works
 ---
 
-The rules IfcHopper follows, for when you want to know why a model came out the way it did. The full technical description is in the [code repository](https://github.com/IfcHopper/grasshopper-code#data-flow).
+The rules IfcHopper follows, for when you want to know why a model came out the way it did. The full technical description is in the [code repository](https://github.com/IfcHopper/grasshopper-code/blob/main/docs/DEVELOPMENT.md#data-flow).
+
+## Compact component inputs
+
+New creation and Modify components start compact. Use the bottom arrow to show advanced inputs and the top arrow to collapse them. Connected inputs and inputs with configured values remain visible. The layout is saved with the definition; existing definitions without this option open expanded. Samples show advanced inputs for discoverability.
 
 ## The model
 

@@ -9,7 +9,7 @@ sidebar_label: Site
 ![Site](/img/components/site.png) 
 **Site** (Site) · IfcHopper > Project
 
-Creates an IFC site (IfcSite) from nested sites, facilities and elements.
+Creates an IFC site (IfcSite) from nested sites, facilities and elements. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

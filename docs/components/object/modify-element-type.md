@@ -9,7 +9,7 @@ sidebar_label: Modify Element Type
 ![Modify Element Type](/img/components/modify-element-type.png) 
 **Modify Element Type** (ModType) · IfcHopper > Object
 
-Edits an IFC element type. Unconnected inputs keep their value; the GlobalId and class are kept. Written back to its file (through Apply Edits, or as the type of an object), the type changes for all its occurrences, like editing a block definition.
+Edits an IFC element type. Unconnected inputs keep their value; the GlobalId and class are kept. Written back to its file (through Apply Edits, or as the type of an object), the type changes for all its occurrences, like editing a block definition. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

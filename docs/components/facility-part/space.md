@@ -9,7 +9,7 @@ sidebar_label: Space
 ![Space](/img/components/space.png) 
 **Space** (Space) · IfcHopper > Facility Part
 
-Creates an IFC space (IfcSpace), e.g. a room. Connect it to a site, facility, storey, facility part or space.
+Creates an IFC space (IfcSpace), e.g. a room. Connect it to a site, facility, storey, facility part or space. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

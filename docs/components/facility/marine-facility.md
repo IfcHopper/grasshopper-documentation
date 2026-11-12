@@ -9,7 +9,7 @@ sidebar_label: Marine Facility
 ![Marine Facility](/img/components/marine-facility.png) 
 **Marine Facility** (Marine Facility) · IfcHopper > Facility
 
-Creates an IFC marine facility (IfcMarineFacility).
+Creates an IFC marine facility (IfcMarineFacility). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

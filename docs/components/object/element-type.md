@@ -9,7 +9,7 @@ sidebar_label: Element Type
 ![Element Type](/img/components/element-type.png) 
 **Element Type** (Type) · IfcHopper > Object
 
-Creates an IFC element type (e.g. IfcWallType), shared by the objects placing it, like a block definition. Connect it to the Element Type input of objects.
+Creates an IFC element type (e.g. IfcWallType), shared by the objects placing it, like a block definition. Connect it to the Element Type input of objects. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

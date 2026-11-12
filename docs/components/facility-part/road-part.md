@@ -9,7 +9,7 @@ sidebar_label: Road Part
 ![Road Part](/img/components/road-part.png) 
 **Road Part** (Road Part) · IfcHopper > Facility Part
 
-Creates an IFC road part (IfcRoadPart).
+Creates an IFC road part (IfcRoadPart). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

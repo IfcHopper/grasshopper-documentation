@@ -9,7 +9,7 @@ sidebar_label: Marine Part
 ![Marine Part](/img/components/marine-part.png) 
 **Marine Part** (Marine Part) · IfcHopper > Facility Part
 
-Creates an IFC marine part (IfcMarinePart).
+Creates an IFC marine part (IfcMarinePart). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

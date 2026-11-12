@@ -9,7 +9,7 @@ sidebar_label: Material
 ![Material](/img/components/material.png) 
 **Material** (Material) · IfcHopper > Object
 
-Creates an IFC material (IfcMaterial). Connect it to objects, types or material sets; on write an existing material with the same name and values is reused.
+Creates an IFC material (IfcMaterial). Connect it to objects, types or material sets; on write an existing material with the same name and values is reused. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

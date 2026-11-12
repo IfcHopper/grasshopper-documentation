@@ -6,7 +6,7 @@ sidebar_label: Samples
 
 Grasshopper definitions, one per workflow, with the IFC files they write.
 
-**[Download the samples (zip)](pathname:///files/ifchopper-samples-1.0-beta.zip)**
+**[Download the samples (zip)](pathname:///files/ifchopper-samples-1.0.0-beta.2.zip)**
 
 Unzip them anywhere and open the definitions in Rhino 8 with IfcHopper installed. Each one explains its steps in groups on the canvas. Geometry is built in Grasshopper and sizes are in metres: the Rhino document units are respected, but the samples are easiest to follow in a metre document.
 

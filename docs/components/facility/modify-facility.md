@@ -9,7 +9,7 @@ sidebar_label: Modify Facility
 ![Modify Facility](/img/components/modify-facility.png) 
 **Modify Facility** (ModFacility) · IfcHopper > Facility
 
-Edits any IFC facility. Unconnected inputs keep their value; the GlobalId is kept.
+Edits any IFC facility. Unconnected inputs keep their value; the GlobalId is kept. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

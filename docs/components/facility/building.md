@@ -9,7 +9,7 @@ sidebar_label: Building
 ![Building](/img/components/building.png) 
 **Building** (Building) · IfcHopper > Facility
 
-Creates an IFC building (IfcBuilding) from storeys.
+Creates an IFC building (IfcBuilding) from storeys. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

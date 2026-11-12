@@ -9,8 +9,8 @@ sidebar_label: Introduction
 
 **IfcHopper** (formerly IfcHopperShell) is an open-source Grasshopper plugin for Rhino 8 that creates, reads, updates and deletes (CRUD) data directly in native IFC files. There is no conversion to another format: what you build in Grasshopper is written as IFC, and what you read from an IFC file can be edited and written back, keeping everything else in the file as it was.
 
-:::info[1.0 beta]
-This is the documentation of the **1.0 beta**. Try it on your models and [tell us](#get-involved) what works and what does not. Component inputs and outputs may still change until 1.0.
+:::info[1.0.0-beta.2]
+This is the documentation of the **1.0.0-beta.2**. Try it on your models and [tell us](#get-involved) what works and what does not. Component inputs and outputs may still change until 1.0.
 :::
 
 ## What you can do

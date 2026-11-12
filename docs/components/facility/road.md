@@ -9,7 +9,7 @@ sidebar_label: Road
 ![Road](/img/components/road.png) 
 **Road** (Road) · IfcHopper > Facility
 
-Creates an IFC road (IfcRoad).
+Creates an IFC road (IfcRoad). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

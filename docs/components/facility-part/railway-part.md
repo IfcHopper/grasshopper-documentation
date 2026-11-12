@@ -9,7 +9,7 @@ sidebar_label: Railway Part
 ![Railway Part](/img/components/railway-part.png) 
 **Railway Part** (Railway Part) · IfcHopper > Facility Part
 
-Creates an IFC railway part (IfcRailwayPart).
+Creates an IFC railway part (IfcRailwayPart). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

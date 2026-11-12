@@ -9,7 +9,7 @@ sidebar_label: Modify Site
 ![Modify Site](/img/components/modify-site.png) 
 **Modify Site** (ModSite) · IfcHopper > Project
 
-Edits an IFC site. Unconnected inputs keep their value; the GlobalId is kept.
+Edits an IFC site. Unconnected inputs keep their value; the GlobalId is kept. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

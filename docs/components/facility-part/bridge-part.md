@@ -9,7 +9,7 @@ sidebar_label: Bridge Part
 ![Bridge Part](/img/components/bridge-part.png) 
 **Bridge Part** (Bridge Part) · IfcHopper > Facility Part
 
-Creates an IFC bridge part (IfcBridgePart).
+Creates an IFC bridge part (IfcBridgePart). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

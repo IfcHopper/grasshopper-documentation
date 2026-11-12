@@ -9,7 +9,7 @@ sidebar_label: Facility Part
 ![Facility Part](/img/components/facility-part-component.png) 
 **Facility Part** (Facility Part) · IfcHopper > Facility Part
 
-Creates a generic IFC facility part (IfcFacilityPartCommon), usable in any facility.
+Creates a generic IFC facility part (IfcFacilityPartCommon), usable in any facility. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

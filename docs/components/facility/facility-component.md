@@ -9,7 +9,7 @@ sidebar_label: Facility
 ![Facility](/img/components/facility-component.png) 
 **Facility** (Facility) · IfcHopper > Facility
 
-Creates an IFC facility (IfcFacility).
+Creates an IFC facility (IfcFacility). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

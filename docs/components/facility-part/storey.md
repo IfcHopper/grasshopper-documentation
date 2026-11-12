@@ -9,7 +9,7 @@ sidebar_label: Storey
 ![Storey](/img/components/storey.png) 
 **Storey** (Storey) · IfcHopper > Facility Part
 
-Creates an IFC building storey (IfcBuildingStorey).
+Creates an IFC building storey (IfcBuildingStorey). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

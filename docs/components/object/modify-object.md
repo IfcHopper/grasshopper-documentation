@@ -9,7 +9,7 @@ sidebar_label: Modify Object
 ![Modify Object](/img/components/modify-object.png) 
 **Modify Object** (ModObject) · IfcHopper > Object
 
-Edits an IFC element. Unconnected inputs keep their value; the GlobalId and class are kept.
+Edits an IFC element. Unconnected inputs keep their value; the GlobalId and class are kept. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
 
 ## Inputs
 

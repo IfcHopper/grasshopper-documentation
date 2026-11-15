@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Material
 ![Deconstruct Material](/img/components/deconstruct-material.png) 
 **Deconstruct Material** (DeMaterial) · IfcHopper > Object
 
-Deconstructs an IFC material or material set. Part outputs list the layers, constituents or profiles of a set in order; a single material is its own only part.
+Deconstructs an IFC material or material set. Part outputs list the layers, constituents or profiles of a set in order; a single material is its own only part. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

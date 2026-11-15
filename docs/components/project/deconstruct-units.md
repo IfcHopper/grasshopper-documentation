@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Units
 ![Deconstruct Units](/img/components/deconstruct-units.png) 
 **Deconstruct Units** (DeUnits) · IfcHopper > Project
 
-Deconstructs IFC project units.
+Deconstructs IFC project units. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

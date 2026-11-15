@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Model
 ![Deconstruct Model](/img/components/deconstruct-model.png) 
 **Deconstruct Model** (DeModel) · IfcHopper > File
 
-Deconstructs an IfcHopper model.
+Deconstructs an IfcHopper model. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

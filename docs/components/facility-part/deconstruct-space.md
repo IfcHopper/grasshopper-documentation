@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Space
 ![Deconstruct Space](/img/components/deconstruct-space.png) 
 **Deconstruct Space** (DeSpace) · IfcHopper > Facility Part
 
-Deconstructs an IFC space. Children of a space read from a file are loaded on demand.
+Deconstructs an IFC space. Children of a space read from a file are loaded on demand. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

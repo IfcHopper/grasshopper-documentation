@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Georeference
 ![Deconstruct Georeference](/img/components/deconstruct-georeference.png) 
 **Deconstruct Georeference** (DeGeoref) · IfcHopper > Project
 
-Deconstructs an IFC georeference.
+Deconstructs an IFC georeference. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

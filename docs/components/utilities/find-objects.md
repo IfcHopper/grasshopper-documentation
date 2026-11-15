@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Find Objects
 sidebar_label: Find Objects
 ---
@@ -16,9 +16,9 @@ Finds objects in a model or below an object by IFC class, name, GlobalId and pro
 | Name | Type | Access | Description |
 | --- | --- | --- | --- |
 | **Model** (M) \* | Generic Data | item | IfcHopper model, or a project, site, facility, part, storey, space or object to search below. |
-| **Classes** (C) | Text | list | IFC classes, e.g. IfcWall, IfcDoor, or IfcBuiltElement for all built elements; an object matches one of them. Empty: any class. |
-| **Exact Class** (EC) | Boolean | item | True: only the classes given, not their subclasses. Default: `False`. |
-| **Name** (N) | Text | item | Name pattern with * and ? wildcards, ignoring case, e.g. *wall*. Empty: any name. |
+| **Classes** (C) | Text | list | IFC classes to include, e.g. IfcBuiltElement. Prefix ! to exclude a class, e.g. !IfcWall. Match any inclusion and no exclusion; exclusion-only lists start from all classes. Subclasses count unless Exact Class is true. Empty: any class. Class names are not regex. |
+| **Exact Class** (EC) | Boolean | item | True: include/exclude only the classes given, not their subclasses. Default: `False`. |
+| **Name** (N) | Text | item | Case-insensitive .NET regular expression. wall matches anywhere; ^(Wall\|Slab) matches either prefix; ^(?!.*temporary).*wall excludes temporary walls. Use ^ and $ to match the whole name. Empty/blank: any name. Whitespace is significant. Matching stops after 100 ms per name. Replaces beta wildcards: use .* for * and . for ?. |
 | **GlobalIds** (Id) | Text | list | GlobalIds (22 characters) or GUIDs; an object matches one of them. Empty: any. |
 | **Properties** (P) | Text | list | Property and quantity filters, all of which must match: Set.Property (it exists) or Set.Property op value with op =, !=, &lt;, &lt;=, &gt;, &gt;=, e.g. Pset_WallCommon.IsExternal = true or Qto_WallBaseQuantities.Length &gt; 5 (lengths, areas and volumes in document units). Sets of the object's type count. |
 

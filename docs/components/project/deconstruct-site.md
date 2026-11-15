@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Site
 ![Deconstruct Site](/img/components/deconstruct-site.png) 
 **Deconstruct Site** (DeSite) · IfcHopper > Project
 
-Deconstructs an IFC site. Children of a site read from a file are loaded on demand.
+Deconstructs an IFC site. Children of a site read from a file are loaded on demand. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

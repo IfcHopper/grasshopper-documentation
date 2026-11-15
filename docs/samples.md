@@ -6,9 +6,9 @@ sidebar_label: Samples
 
 Grasshopper definitions, one per workflow, with the IFC files they write.
 
-**[Download the samples (zip)](pathname:///files/ifchopper-samples-1.0.0-beta.2.zip)**
+**[Download the samples (zip)](pathname:///files/ifchopper-samples-1.0.0-beta.3.zip)**
 
-Unzip them anywhere and open the definitions in Rhino 8 with IfcHopper installed. Each one explains its steps in groups on the canvas. Geometry is built in Grasshopper and sizes are in metres: the Rhino document units are respected, but the samples are easiest to follow in a metre document.
+Unzip them anywhere and open the definitions in Rhino 8 or 9 with IfcHopper installed. Each one explains its steps in groups on the canvas. Geometry is built in Grasshopper and sizes are in metres: the Rhino document units are respected, but the samples are easiest to follow in a metre document.
 
 | Sample | Shows |
 | --- | --- |
@@ -26,6 +26,8 @@ Unzip them anywhere and open the definitions in Rhino 8 with IfcHopper installed
 | 12 Tags and attributes | Tags and class attributes of doors, windows and a window type. |
 | 13 Edit in place | Read sample 01's file, find a wall and the storey, modify them, apply the edits and write: only the edits change. |
 | 14 Schema export | One model written as IFC4X3_ADD2, IFC4 and IFC2X3, with the downgrade warnings. |
-| 15 Find and summarise | Model Info (classes, counts, tree) and Find Objects by class, name, openings and property filters. |
+| 15 Find and summarise | Model Info (classes, counts, tree) and Find Objects by class inclusion/exclusion, name regex, openings and property filters. |
+| 16 Move model near origin | Translate a survey model in X/Y while preserving projected map positions through its georeference. |
+| 17 Class colours | Native Custom Preview with stable class colours, exact overrides and a wildcard fallback. |
 
 Samples that write a file write it to the `ifc` folder next to the definition. The **Write** toggle is saved off: set it to true to write. The `ifc` folder already holds the files the samples write, so samples 02, 13 and 15 have a file to read.

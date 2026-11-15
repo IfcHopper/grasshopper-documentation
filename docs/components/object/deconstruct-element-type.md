@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Element Type
 ![Deconstruct Element Type](/img/components/deconstruct-element-type.png) 
 **Deconstruct Element Type** (DeType) · IfcHopper > Object
 
-Deconstructs an IFC element type. Its geometry is in type coordinates, like a block definition; occurrences place it.
+Deconstructs an IFC element type. Its geometry is in type coordinates, like a block definition; occurrences place it. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 
@@ -28,7 +28,7 @@ Deconstructs an IFC element type. Its geometry is in type coordinates, like a bl
 | **GlobalId** (Id) | Text | item | IFC GlobalId. Empty for objects not yet written. |
 | **Class** (C) | Text | item | IFC class, e.g. IfcWallType. |
 | **Type** (T) | Text | item | Predefined type, or the element type when user defined. |
-| **Geometry** (G) | Mesh | list | Body geometry of the representation maps as meshes in type coordinates. Read solids are faceted. |
+| **Geometry** (G) | Mesh | list | Body geometry of the representation maps as colour-free meshes in type coordinates. Read solids are faceted. Use Custom Preview with Colour or Material for explicit styling. |
 | **Colour** (Col) | Colour | list | Surface colour of each mesh: its own style (IfcStyledItem), else the colour of the type's material; empty when neither is styled. Alpha holds the transparency. |
 | **Material** (Mat) | IFC Material | item | Material of the type (IfcRelAssociatesMaterial). |
 | **Property Sets** (PS) | IFC Property Set | list | Property and quantity sets. Sets of the type are included unless the object has its own set with the same name (From Type on Deconstruct Pset and Deconstruct Qto). |

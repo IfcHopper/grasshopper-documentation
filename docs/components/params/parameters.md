@@ -19,7 +19,7 @@ Parameters of the Params panel. They hold IfcHopper objects, e.g. to collect the
 | ![Storey](/img/components/param-storey.png) | **Storey** (St) | IfcHopper building storey. |
 | ![Classification](/img/components/param-classification.png) | **Classification** (Cl) | IfcHopper classification reference (IfcClassificationReference). |
 | ![Context](/img/components/param-context.png) | **Context** (Cx) | IfcHopper representation context. |
-| ![Element](/img/components/param-element.png) | **Element** (E) | IfcHopper element. |
+| ![Element](/img/components/param-element.png) | **Element** (E) | IfcHopper element. Standard Grasshopper preview; use Custom Preview with geometry and Colour or Material to apply styles explicitly. |
 | ![Element Type](/img/components/param-element-type.png) | **Element Type** (ET) | IfcHopper element type, shared by its occurrences. |
 | ![Georeference](/img/components/param-georeference.png) | **Georeference** (Geo) | IfcHopper georeference. |
 | ![Material](/img/components/param-material.png) | **Material** (Mat) | IfcHopper material: a single material or a layer, constituent or profile set. |

@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Facility
 ![Deconstruct Facility](/img/components/deconstruct-facility.png) 
 **Deconstruct Facility** (DeFacility) · IfcHopper > Facility
 
-Deconstructs any IFC facility (building, road, bridge, railway, marine facility, facility). Children are loaded on demand.
+Deconstructs any IFC facility (building, road, bridge, railway, marine facility, facility). Children are loaded on demand. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

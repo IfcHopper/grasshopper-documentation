@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Object
 ![Deconstruct Object](/img/components/deconstruct-object.png) 
 **Deconstruct Object** (DeObject) · IfcHopper > Object
 
-Deconstructs an IFC element.
+Deconstructs an IFC element. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 
@@ -28,7 +28,7 @@ Deconstructs an IFC element.
 | **GlobalId** (Id) | Text | item | IFC GlobalId. Empty for objects not yet written. |
 | **Class** (C) | Text | item | IFC class, e.g. IfcWall. |
 | **Type** (T) | Text | item | Predefined type, or the object type when user defined. |
-| **Geometry** (G) | Mesh | list | Body geometry as meshes in world coordinates, with the openings subtracted (the body stored in the file is uncut). Read solids are faceted. |
+| **Geometry** (G) | Mesh | list | Body geometry as colour-free meshes in world coordinates, with the openings subtracted (the body stored in the file is uncut). Read solids are faceted. Use Custom Preview with Colour or Material for explicit styling. |
 | **Colour** (Col) | Colour | list | Surface colour of each mesh: its own style (IfcStyledItem), else the colour of the element's material; empty when neither is styled. Alpha holds the transparency. |
 | **Parts** (P) | IFC Element | list | Elements this object is made of (IfcRelAggregates). |
 | **Openings** (Op) | IFC Element | list | Openings and recesses voiding the element (IfcRelVoidsElement); deconstruct them as objects. |

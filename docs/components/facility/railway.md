@@ -9,7 +9,7 @@ sidebar_label: Railway
 ![Railway](/img/components/railway.png) 
 **Railway** (Railway) · IfcHopper > Facility
 
-Creates an IFC railway (IfcRailway). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
+Creates an IFC railway (IfcRailway). Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

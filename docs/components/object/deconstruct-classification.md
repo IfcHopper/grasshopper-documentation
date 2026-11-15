@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Classification
 ![Deconstruct Classification](/img/components/deconstruct-classification.png) 
 **Deconstruct Classification** (DeClass) · IfcHopper > Object
 
-Deconstructs a classification reference (IfcClassificationReference). References nested in other references give the system at the top.
+Deconstructs a classification reference (IfcClassificationReference). References nested in other references give the system at the top. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

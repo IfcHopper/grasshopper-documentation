@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Context
 ![Deconstruct Context](/img/components/deconstruct-context.png) 
 **Deconstruct Context** (DeContext) · IfcHopper > Project
 
-Deconstructs an IFC representation context and its subcontexts.
+Deconstructs an IFC representation context and its subcontexts. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Storey
 ![Deconstruct Storey](/img/components/deconstruct-storey.png) 
 **Deconstruct Storey** (DeStorey) · IfcHopper > Facility Part
 
-Deconstructs an IFC building storey. Children of a storey read from a file are loaded on demand.
+Deconstructs an IFC building storey. Children of a storey read from a file are loaded on demand. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

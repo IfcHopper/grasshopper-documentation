@@ -9,7 +9,7 @@ sidebar_label: Modify Project
 ![Modify Project](/img/components/modify-project.png) 
 **Modify Project** (ModProject) · IfcHopper > Project
 
-Edits an IFC project. Unconnected inputs keep their value; the GlobalId is kept. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
+Edits an IFC project. Unconnected inputs keep their value; the GlobalId is kept. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

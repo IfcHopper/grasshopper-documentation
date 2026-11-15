@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Qto
 ![Deconstruct Qto](/img/components/deconstruct-qto.png) 
 **Deconstruct Qto** (DeQto) · IfcHopper > Object
 
-Deconstructs a quantity set (IfcElementQuantity). Use Deconstruct Pset for property sets.
+Deconstructs a quantity set (IfcElementQuantity). Use Deconstruct Pset for property sets. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

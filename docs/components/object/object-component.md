@@ -9,7 +9,7 @@ sidebar_label: Object
 ![Object](/img/components/object-component.png) 
 **Object** (Object) · IfcHopper > Object
 
-Creates an IFC element (any instantiable IfcElement subclass, e.g. IfcWall). Connect it to a storey or facility part. Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
+Creates an IFC element (any instantiable IfcElement subclass, e.g. IfcWall). Connect it to a storey or facility part. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 
@@ -20,7 +20,7 @@ Creates an IFC element (any instantiable IfcElement subclass, e.g. IfcWall). Con
 | **Description** (D) | Text | item | Object description. |
 | **Type** (T) | Text | item | Predefined type of the class (e.g. SOLIDWALL for IfcWall). Other values are written as USERDEFINED with the value as object type. |
 | **Geometry** (G) | Geometry | list | Body geometry in world coordinates. Meshes are kept; Breps, extrusions, surfaces and SubDs are faceted; block instances are exploded. |
-| **Colour** (Col) | Colour | item | Surface colour of the geometry (IfcStyledItem); alpha sets the transparency. |
+| **Colour** (Col) | Colour | item | Surface colour data of the geometry (IfcStyledItem); alpha sets transparency. Stored for IFC export/bake; use Custom Preview to display colours explicitly. |
 | **Parts** (P) | IFC Element | list | Elements this object is made of (IfcRelAggregates), e.g. the members of an IfcElementAssembly. |
 | **Openings** (Op) | IFC Element | list | Openings and recesses voiding the object (Opening component, IfcRelVoidsElement). Its geometry stays uncut in the file. |
 | **Material** (Mat) | IFC Material | item | Material of the object (IfcRelAssociatesMaterial): a material, layer set or constituent set. Layer sets are written with a layer set usage (along the thickness of slabs, plates, coverings and roofs, across that of other elements). Empty: the material of its type. |

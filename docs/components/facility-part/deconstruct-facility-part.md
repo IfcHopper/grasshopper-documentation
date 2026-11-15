@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Facility Part
 ![Deconstruct Facility Part](/img/components/deconstruct-facility-part.png) 
 **Deconstruct Facility Part** (DePart) · IfcHopper > Facility Part
 
-Deconstructs any IFC facility part. Nested parts and elements are loaded on demand.
+Deconstructs any IFC facility part. Nested parts and elements are loaded on demand. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

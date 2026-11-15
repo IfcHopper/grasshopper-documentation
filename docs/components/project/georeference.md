@@ -9,7 +9,7 @@ sidebar_label: Georeference
 ![Georeference](/img/components/georeference.png) 
 **Georeference** (Georef) · IfcHopper > Project
 
-Georeferences a project: maps the model origin and X axis to a projected CRS (IfcMapConversion, IfcProjectedCRS). Use the bottom arrow to show advanced inputs and the top arrow to collapse them; connected or configured inputs stay visible.
+Georeferences a project: maps the model origin and X axis to a projected CRS (IfcMapConversion, IfcProjectedCRS). Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

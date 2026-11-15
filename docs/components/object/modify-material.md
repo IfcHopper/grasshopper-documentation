@@ -9,7 +9,7 @@ sidebar_label: Modify Material
 ![Modify Material](/img/components/modify-material.png) 
 **Modify Material** (ModMaterial) · IfcHopper > Object
 
-Edits an IFC material or material set. Unconnected inputs keep their value. Written back to its file (through Apply Edits, or as the material of an object or type), the material changes for every element using it. To change the layers of a set, build a new set.
+Edits an IFC material or material set. Unconnected inputs keep their value. Written back to its file (through Apply Edits, or as the material of an object or type), the material changes for every element using it. To change the layers of a set, build a new set. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

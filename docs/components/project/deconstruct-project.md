@@ -9,7 +9,7 @@ sidebar_label: Deconstruct Project
 ![Deconstruct Project](/img/components/deconstruct-project.png) 
 **Deconstruct Project** (DeProject) · IfcHopper > Project
 
-Deconstructs an IFC project. Children of a project read from a file are loaded on demand.
+Deconstructs an IFC project. Children of a project read from a file are loaded on demand. Use the bottom arrow to show advanced parameters and the top arrow to collapse them; connected parameters and configured inputs stay visible.
 
 ## Inputs
 

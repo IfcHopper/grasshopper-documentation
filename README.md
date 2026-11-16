@@ -4,7 +4,8 @@
 The website is live at
 https://ifchopper.github.io/grasshopper-documentation/
 
-- `docs/` is the current version (v1.0-beta); `versioned_docs/version-0.1/` is IfcHopperShell 0.1.
+- `docs/` contains Unreleased development documentation at `/next`, hidden from the version dropdown and marked `noindex`.
+- `versioned_docs/version-1.0.0-beta.3/` is the frozen beta.3 documentation, served by default at the site root. The snapshot comes from published `main` commit `35769f95359273671d50a6e366ffdaaf4be32b99`, before local development documentation changes. `versioned_docs/version-0.1/` is IfcHopperShell 0.1.
 - `docs/components/` is generated from the plugin (`tools/SampleBuilder --docs` in the [code repository](https://github.com/IfcHopper/grasshopper-code)); do not edit it by hand.
 - Build locally with `npm ci` and `npm run build`; pushing to `main` deploys the site.
 

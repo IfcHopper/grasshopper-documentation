@@ -63,10 +63,16 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // docs/ is the latest IfcHopper version, served at the root; older versions are frozen in versioned_docs/.
-          lastVersion: 'current',
+          // Released beta.3 stays at the root; development docs are available only by direct /next links.
+          lastVersion: '1.0.0-beta.3',
           versions: {
             current: {
+              label: 'Unreleased',
+              path: 'next',
+              banner: 'unreleased',
+              noIndex: true,
+            },
+            '1.0.0-beta.3': {
               label: 'v1.0.0-beta.3',
               banner: 'none',
             },
@@ -131,6 +137,7 @@ const config = {
           {
             type: 'docsVersionDropdown',
             position: 'right',
+            versions: ['1.0.0-beta.3', '0.1'],
           },
           {
             href: 'https://github.com/IfcHopper/grasshopper-code',

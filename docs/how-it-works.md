@@ -35,6 +35,8 @@ Every object has a GlobalId. Create components take one, or derive a stable one 
 
 Files are read lazily: the project first, then every object the first time a component asks for it. Entities IfcHopper does not model are kept in the file when it is written back.
 
+**Read IFC** warns when products are omitted from the IfcHopper model, listing each IFC class and its count. Unsupported classes and products outside the supported project hierarchy are unavailable for preview, search and export to another schema. Invalid instances of abstract product classes, such as `IfcStructuralMember`, receive a separate warning: correct their classification to an appropriate concrete class in the authoring application and re-export. These warnings do not repair or fully validate the file. Structural analysis object import is planned for a later release.
+
 ## Editing in place
 
 Modify components output edited copies (same GlobalId); **Apply Edits** puts them back into a read model. Writing a read model applies only the differences to a fresh copy of the source file:

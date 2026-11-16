@@ -9,7 +9,7 @@ sidebar_label: Read IFC
 ![Read IFC](/img/components/read-ifc.png) 
 **Read IFC** (ReadIFC) · IfcHopper > File
 
-Reads an IFC file into an IfcHopper model. Only the project is converted; deconstruct components load the rest on demand. Lengths are converted to Rhino units. Large stored coordinates and local placements produce a warning; meshes retain double precision without relocating the model.
+Reads an IFC file into an IfcHopper model. Only the project is converted; deconstruct components load the rest on demand. Lengths are converted to Rhino units. Omitted products are reported by IFC class and count, including invalid abstract product instances. Large stored coordinates and local placements produce a warning; meshes retain double precision without relocating the model.
 
 ## Inputs
 
